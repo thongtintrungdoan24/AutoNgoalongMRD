@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AutoNgoalongMRD.exe" version="1.0.0.0" publicKeyToken="82e984ad97bc0435" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AutoNgoalongMRD" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="AutoNgoalongMRD.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoNgoalongMRD.exe" size="141224">
+      <assemblyIdentity name="AutoNgoalongMRD" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kIfTaTZxWx9IIzua7MScaNJ6L8yzVc9VR0+HjVGZCkk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Emgu.CV.World.dll" size="665088">
+      <assemblyIdentity name="Emgu.CV.World" version="3.4.1.2976" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dJZeBk6q9UZVAE/nZx70Vw6ip2EuStz1Y2U/AU16VC8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KAutoHelper.dll" size="23552">
+      <assemblyIdentity name="KAutoHelper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ikwr64epg08V3GfnBp0xsQpEfexgMAIaQmcv7VBIR7Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AutoNgoalongMRD.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ADMIN\Admin" issuerKeyHash="65d5a0305458d5bbc984cdda4ef992963ec69e1a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>osFVTMlXnyvBrmCggXuJl1+gnGGH8tRRLyZJOM4vpm4=</DigestValue></Reference></SignedInfo><SignatureValue>VWYfLZDwVKxJT2lSVqjyDZJ78+ZlIQBLnQ/3PAw/Bmf59fOK/NP6Pg4E/ElHuxYk0TLXJlQKo4nr270kYdrFvrcQTCce5B9+J5+IS8MYeRSUonXQeyBDYpttaC5ZmMl8MCz0z8W3mi3BL79ffgOKApcIZrQ8qw4nqiwQOsep8gg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vPOOGSkxre5B7K7bHFUWIpCQ2e3CRY4mCBZCl8ZnCWV7S1N4anU5HCg3Ny5M5yDAhzoGm8k1E7rcDf+35DqVllkRYMS04pJ44HKmKdNeaI/sZt4ADeLXJwYeFBktRTAalJnXhKqfzLBvZLzNtsEDEgIK0lhjxG37WvEe8pOkgxU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6ea62fce3849262f51d4f287619ca05f97897b81a060aec12b9f57c94c55c1a2" Description="" Url=""><as:assemblyIdentity name="AutoNgoalongMRD.exe" version="1.0.0.0" publicKeyToken="82e984ad97bc0435" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ADMIN\Admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>STlKxfhGFE7bjMjxRXRwfLyKzfFnpKZg73A8Vd4+Vw8=</DigestValue></Reference></SignedInfo><SignatureValue>b/hGodjgZ5e1txBGAuwW12cIl3K7Qge/FRHEcYhOzX7mrWjlXcJuVFflWou0juWKVYcZJJ1huaFVhoWdPEgBf0Fv7NPb6ltLVj/oTebWxfViG5JbiBLbTzlcH+ZUecZN4sN4+Qwex5sKgERo4GO2AapWGtfj2Iigunxv+GcppZE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vPOOGSkxre5B7K7bHFUWIpCQ2e3CRY4mCBZCl8ZnCWV7S1N4anU5HCg3Ny5M5yDAhzoGm8k1E7rcDf+35DqVllkRYMS04pJ44HKmKdNeaI/sZt4ADeLXJwYeFBktRTAalJnXhKqfzLBvZLzNtsEDEgIK0lhjxG37WvEe8pOkgxU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQEbcX1gQI95RIWWzzJR1h9TANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAQQBEAE0ASQBOAFwAQQBkAG0AaQBuMB4XDTE5MDUyMDEzNTgwM1oXDTIwMDUxOTE5NTgwM1owITEfMB0GA1UEAx4WAEEARABNAEkATgBcAEEAZABtAGkAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvPOOGSkxre5B7K7bHFUWIpCQ2e3CRY4mCBZCl8ZnCWV7S1N4anU5HCg3Ny5M5yDAhzoGm8k1E7rcDf+35DqVllkRYMS04pJ44HKmKdNeaI/sZt4ADeLXJwYeFBktRTAalJnXhKqfzLBvZLzNtsEDEgIK0lhjxG37WvEe8pOkgxUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCYAl0xoHlnmXc4qW+k+/nTqdkhQmLJXFDpyxr2slWEnsCLvUFQHZR1JRilxWkphx7K8kJAJ+fH838FM790F4/MCLEG6xmhCi+xE+2lZXhB5FrEqOkVcvnd+OYAyoMU0ZLAgTUAvv1fgLS16Tdb1TOokQpgVRxMBwFVKAQVEPVlUg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

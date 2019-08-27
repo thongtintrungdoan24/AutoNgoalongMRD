@@ -1,0 +1,11 @@
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\bin\Debug\AutoNgoalongMRD.exe.config
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\bin\Debug\AutoNgoalongMRD.exe
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\bin\Debug\AutoNgoalongMRD.pdb
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\Debug\AutoNgoalongMRD.csprojResolveAssemblyReference.cache
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\Debug\AutoNgoalongMRD.frmCuaSoAuto.resources
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\Debug\AutoNgoalongMRD.Properties.Resources.resources
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\Debug\AutoNgoalongMRD.csproj.GenerateResource.Cache
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\Debug\AutoNgoalongMRD.exe
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\Debug\AutoNgoalongMRD.pdb
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\Debug\AutoNgoalongMRD.frmQuanLyTaiKhoan.resources
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\Debug\AutoNgoalongMRD.frmMain.resources

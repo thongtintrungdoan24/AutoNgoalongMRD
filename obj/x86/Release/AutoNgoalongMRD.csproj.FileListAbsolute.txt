@@ -1,0 +1,16 @@
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\bin\x86\Release\AutoNgoalongMRD.exe.config
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\bin\x86\Release\AutoNgoalongMRD.exe.manifest
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\bin\x86\Release\AutoNgoalongMRD.application
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\bin\x86\Release\AutoNgoalongMRD.exe
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\bin\x86\Release\AutoNgoalongMRD.pdb
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\bin\x86\Release\KAutoHelper.dll
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\bin\x86\Release\Emgu.CV.World.dll
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\x86\Release\AutoNgoalongMRD.frmCuaSoAuto.resources
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\x86\Release\AutoNgoalongMRD.frmMain.resources
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\x86\Release\AutoNgoalongMRD.frmQuanLyTaiKhoan.resources
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\x86\Release\AutoNgoalongMRD.Properties.Resources.resources
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\x86\Release\AutoNgoalongMRD.csproj.GenerateResource.Cache
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\x86\Release\AutoNgoalongMRD.exe.manifest
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\x86\Release\AutoNgoalongMRD.application
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\x86\Release\AutoNgoalongMRD.exe
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\x86\Release\AutoNgoalongMRD.pdb
