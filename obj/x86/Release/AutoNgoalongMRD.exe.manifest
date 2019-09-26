@@ -43,38 +43,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoNgoalongMRD.exe" size="177576">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoNgoalongMRD.exe" size="174592">
       <assemblyIdentity name="AutoNgoalongMRD" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>new17DGNqRxhiVPWWEiDxQ4WAzDWXQe9gBuuDLe2VzE=</dsig:DigestValue>
+        <dsig:DigestValue>/xej2xQMz7vML8sq64LL/EIaXcg9q7Uyr0Jz3+gMeE8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Emgu.CV.World.dll" size="665088">
-      <assemblyIdentity name="Emgu.CV.World" version="3.4.1.2976" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KAutoHelper.dll" size="49152">
+      <assemblyIdentity name="KAutoHelper" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dJZeBk6q9UZVAE/nZx70Vw6ip2EuStz1Y2U/AU16VC8=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KAutoHelper.dll" size="23552">
-      <assemblyIdentity name="KAutoHelper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ikwr64epg08V3GfnBp0xsQpEfexgMAIaQmcv7VBIR7Y=</dsig:DigestValue>
+        <dsig:DigestValue>rgg/5vthlE+A2cY526Aw3jkS4+X7cjo0xeuGIhlsqWY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

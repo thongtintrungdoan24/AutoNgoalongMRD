@@ -346,13 +346,14 @@ namespace AutoNgoalongMRD
         private Bitmap RetakePicMain()
         {
             
-            return new Bitmap(CaptureHelper.CaptureWindow(hw));
+            return (Bitmap)CaptureHelper.CaptureWindow(hw);
         }
         private Bitmap TakePicSub(string _fileName)
         {
             try
             {
-                return new Bitmap(Application.StartupPath+ @"\Images\" + _fileName);
+                return (Bitmap)Image.FromFile(Application.StartupPath + @"\Images\" + _fileName);
+                //return new Bitmap(Application.StartupPath+ @"\Images\" + _fileName);
             }
             catch (Exception)
             {

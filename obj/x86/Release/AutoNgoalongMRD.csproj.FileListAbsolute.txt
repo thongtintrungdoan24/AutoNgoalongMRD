@@ -4,7 +4,7 @@ D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\bin\x86\Release\AutoNgoalongMRD.app
 D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\bin\x86\Release\AutoNgoalongMRD.exe
 D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\bin\x86\Release\AutoNgoalongMRD.pdb
 D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\bin\x86\Release\KAutoHelper.dll
-D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\bin\x86\Release\Emgu.CV.World.dll
+D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\x86\Release\AutoNgoalongMRD.csprojResolveAssemblyReference.cache
 D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\x86\Release\AutoNgoalongMRD.frmCuaSoAuto.resources
 D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\x86\Release\AutoNgoalongMRD.frmMain.resources
 D:\03 VS2015\AutoNgoalongMRD\AutoNgoalongMRD\obj\x86\Release\AutoNgoalongMRD.frmQuanLyTaiKhoan.resources
